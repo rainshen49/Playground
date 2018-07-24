@@ -1,0 +1,8 @@
+FROM microsoft/mssql-server-linux:latest
+RUN ln -s /opt/mssql-tools/bin/sqlcmd /usr/bin/sqlcmd
+RUN ln -s /opt/mssql-tools/bin/bcp /usr/bin/bcp
+RUN ln -s /opt/mssql/bin/sqlservr /usr/bin/sqlservr
+ENV ACCEPT_EULA Y
+ENV MSSQL_SA_PASSWORD Default0
+CMD /opt/mssql/bin/sqlservr
+# docker run -p 1433:1433 --name sql1 <this image>

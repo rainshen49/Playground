@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>details-Summary</title>
+    <style>
+    /* details elements are not indented, so to provide indentation, add margin to children */
+    details>*:not(summary){
+        margin: 0 0 0 1rem;
+    }
+    </style>
+</head>
+
+<body>
+    <details>
+        <summary>Summary Here</summary>
+        <div>Item1</div>
+        <div>Item2</div>
+        <div>Item3</div>
+        <input type="checkbox" name="check" id="checkinsummary">
+        <label for="checkinsummary">This is a checkbox</label>
+        <!-- You can nest details elements, cool! -->
+        <details>
+            <summary>One more layer</summary>
+            <div>Item4.1</div>
+        </details>
+    </details>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Playground",
+  "version": "1.0.0",
+  "description": "My playground or new languages &amp; frameworks etc",
+  "main": "Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainshen49/Playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainshen49/Playground/issues"
+  },
+  "homepage": "https://github.com/rainshen49/Playground#readme",
+  "dependencies": {
+    "koajs": "file:koa",
+    "puppeteer": "^1.5.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reactstrap": "^6.2.0"
+  }
+}

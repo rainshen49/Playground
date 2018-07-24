@@ -1,0 +1,1 @@
+import {smartbind} from 'rains-helpers'
