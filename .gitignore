@@ -69,3 +69,5 @@ xcodeC++/xcodeC++.xcodeproj/*
 .Rproj.user/
 __pycache__/
 *.o
+*.cache
+obj/

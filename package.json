@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rainshen49/Playground#readme",
   "dependencies": {
     "koajs": "file:koa",
+    "ndb": "^1.0.8",
     "puppeteer": "^1.5.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
