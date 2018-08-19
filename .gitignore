@@ -74,3 +74,4 @@ obj/
 .ipynb_checkpoints/
 *.meta
 cifar-10-batches-py/
+pytorch/hymenoptera_data/*
